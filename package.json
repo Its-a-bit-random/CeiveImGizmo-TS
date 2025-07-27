@@ -1,0 +1,40 @@
+{
+  "name": "@rbxts-its-a-bit-random/ceiveimgizmo",
+  "version": "3.6.0",
+  "description": "A performant immediate and retained mode gizmo library.",
+  "main": "src/CeiveImGizmo/init.luau",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Its-a-bit-random/CeiveImGizmo-TS.git"
+  },
+  "author": "Sebastian2852",
+  "license": "MIT",
+  "types": "src/CeiveImGizmo/index.d.ts",
+  "files": [
+    "src",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/Its-a-bit-random/CeiveImGizmo-TS/issues"
+  },
+  "homepage": "https://github.com/Its-a-bit-random/CeiveImGizmo-TS#readme",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.859",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.5.3",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.8.3"
+  }
+}
